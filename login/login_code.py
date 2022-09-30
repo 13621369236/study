@@ -60,7 +60,7 @@ def run_main():
     get_image(file_name)
     text = image_read(file_name)
     get_element(By.ID, "login_btn").click()
-    time.sleep(3)
+    time.sleep(5)
     driver.close()
 
 
